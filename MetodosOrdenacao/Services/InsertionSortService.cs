@@ -16,12 +16,12 @@ namespace MetodosOrdenacao.Services
             StringBuilder stringBuilder = new StringBuilder(text);
             int i, j;
             char x;
-            for (i = 2; i <= stringBuilder.Length-1; i++)
+            for (i = 1; i <= stringBuilder.Length-1; i++)
             {
                 x = stringBuilder[i];
                 j = i - 1;
-                stringBuilder[0] = x;
-                while ((int)x < (int)stringBuilder[j])
+                //stringBuilder[0] = x;
+                while (j >= 0 && (int)x < (int)stringBuilder[j])
                 {
                     stringBuilder[j + 1] = stringBuilder[j];
                     j--;
