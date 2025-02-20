@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Métodos de ordenação</title>
+</head>
+
+<body>
+  <main>
+    <h1>Comparação entre métodos de ordenação</h1>
+    <p>Para começar coloque um texto qualquer e clique em "ordenar"</p>
+    <div class="canva">
+      <canvas id="myChart" style="display: none;width:100%;max-width:600px"></canvas>
+    </div>
+    <form action="" id="form">
+      <label for="textToSort">Digite o texto para ordenar</label>
+      <textarea type="text" id="textToSort" name="textToSort" rows="5" cols="33"></textarea>
+      <input type="submit" value="Ordenar" id="submitButton">
+    </form>
+    <div class="explicacao">
+      <h2>Explicação</h2>
+      <p>O gráfico acima compara o tempo levado por 4 algoritmos de ordenação distintos para ordenar a cadeia de caracteres que você digitou, quanto mais caracteres digitados maior o tempo e a discrepância entre os métodos, brinque com quantos caracteres quiser.</p>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

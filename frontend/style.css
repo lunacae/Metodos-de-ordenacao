@@ -1,0 +1,39 @@
+.canva {
+  max-width: 70%;
+  max-height: 90%;
+  margin-bottom: 50px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-basis: 0;
+}
+
+textarea {
+  display: block;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+#submitButton {
+  max-width: fit-content;
+  border: none;
+  padding: 10px;
+  background-color: rgb(203, 203, 203);
+  border-radius: 10px;
+}
+
+main {
+  max-width: 70%;
+  margin: 50px auto 0px auto;
+}
+
+.explicacao {
+  max-width: 60ch;
+}
